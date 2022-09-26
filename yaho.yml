@@ -1,0 +1,8 @@
+--- 
+- hosts: 172.31.42.213 
+  become: yes 
+  tasts:  
+  - name: install apache 
+    apt: 
+     name: apache2
+     state: present
