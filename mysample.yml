@@ -1,0 +1,8 @@
+--- 
+- hosts: all 
+  become: yes 
+  tasts: 
+  - name: install server
+    apt: 
+     name: apache2
+     state: present 
