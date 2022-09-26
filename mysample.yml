@@ -1,8 +1,8 @@
 --- 
 - hosts: all 
   become: yes 
-  tasts: 
-  - name: install server
+  tasts:  
+  - name: install web server
     apt: 
-     name: apache2
-     state: present 
+      name: apache2
+      state: present 
