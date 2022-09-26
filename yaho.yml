@@ -1,8 +1,8 @@
 --- 
-  - hosts: 172.31.42.213 
-    become: yes 
-    tasts:  
-    - name: install apache 
-      apt: 
-       name: apache2
-       state: present
+- hosts: 172.31.42.213 
+  become: yes 
+  tasks:  
+  - name: install apache2
+    apt: 
+     name: apache2
+     state: present
