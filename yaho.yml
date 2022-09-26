@@ -10,4 +10,4 @@
   - name: install redhat 
     yum: 
       name: RedHat 
-      state: present   
+      state: present      
