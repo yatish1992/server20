@@ -6,8 +6,10 @@
     apt: 
      name: tree 
      state: present 
+    tags: tree  
 
   - name: install git 
     apt: 
       name: git 
       state: present  
+    tags: git 
