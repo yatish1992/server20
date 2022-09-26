@@ -4,5 +4,5 @@
   tasts:  
   - name: install apache 
     apt: 
-      name: apache2
-      state: present 
+     name: apache2
+     state: present  
