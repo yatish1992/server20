@@ -5,4 +5,9 @@
   - name: install apache2
     apt: 
      name: apache2
-     state: present
+     state: present 
+
+  - name: install redhat 
+    yum: 
+      name: RedHat 
+      state: present   
