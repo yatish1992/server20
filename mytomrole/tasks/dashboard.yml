@@ -1,7 +1,7 @@
 --- 
 - name: copy tomcatuser.xml into node side 
   template: 
-    src: templates/tomuser.j2
+    src: templates/mytomuser.j2
     dest: opt/tomcat/conf/tomcat-users.xml 
 
 - name: copy conext file into node side 
